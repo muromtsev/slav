@@ -12,7 +12,15 @@ html(lang='en')
         title=pageTitle
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
     body        
-
+        include ./blocks/range-a/range-a.pug
+        include ./blocks/line/line.pug
         block content
-            h1 Welcome
-            
+            .container
+                .container__title
+                    h1 Range
+                .container__range
+                    +range-a({
+                        value: 1,
+                        text: '71,12 см',
+                    })
+                    +line

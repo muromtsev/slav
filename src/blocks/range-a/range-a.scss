@@ -1,0 +1,27 @@
+.range-a {
+    max-width: 400px;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    // border: 1px solid red;
+    box-sizing: border-box;
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+        &-text {
+            padding: 3px;
+            background-color: #fff;
+        }
+        
+    }
+    &__text {
+        padding: 3px;
+        background-color: #fff;
+    }
+    &__input {
+        width: 320px;
+    }
+
+}

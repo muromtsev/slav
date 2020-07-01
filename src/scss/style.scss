@@ -1,4 +1,23 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    font-size: 1.3em;
+    font-family: monospace;
+    background-color: $main-color;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    width: 100%;
+
+    &__range {
+        display: flex;
+        justify-content: center;
+        max-width: 1000px;
+        width: 100%;
+        align-items: center;
+    }
 }

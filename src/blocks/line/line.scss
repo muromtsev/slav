@@ -1,0 +1,13 @@
+.line-box {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+    .line {
+        width: 1%;
+        display: block;
+        height: 10px;
+        background-color: $color;
+    }
+}

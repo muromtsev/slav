@@ -1,0 +1,7 @@
+mixin range-a({ min, max, value, text='Value is input..', }={})
+    .range-a.js-range-a
+        .range-a__head
+            span.range-a__head-text.range-a__head__text
+            span.range-a__text.js-range-a__text #{text}
+        input(type='range' class='range-a__input js-range-a__input' min=min, max=max, value=value)
+        
